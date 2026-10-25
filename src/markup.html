@@ -1,0 +1,90 @@
+<div class="gbc-wallpaper" data-mode="live" data-quality="high">
+  <svg class="gbc-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <filter id="gbc-rough" x="-8%" y="-12%" width="116%" height="124%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.6" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </svg>
+  <canvas class="gbc-canvas" aria-hidden="true"></canvas>
+
+  <div class="gbc-scrim" aria-hidden="true"></div>
+  <div class="gbc-texture gbc-texture--halftone" aria-hidden="true"></div>
+  <div class="gbc-texture gbc-texture--scan" aria-hidden="true"></div>
+  <div class="gbc-texture gbc-texture--grain" aria-hidden="true"></div>
+  <div class="gbc-texture gbc-texture--vignette" aria-hidden="true"></div>
+
+  <div class="gbc-type" aria-hidden="true">
+    <i class="gbc-crop gbc-crop--tl"></i>
+    <i class="gbc-crop gbc-crop--tr"></i>
+    <i class="gbc-crop gbc-crop--bl"></i>
+    <i class="gbc-crop gbc-crop--br"></i>
+
+    <header class="gbc-masthead">
+      <span class="gbc-stamp">GBC</span>
+      <span class="gbc-masthead__body">
+        <span class="gbc-wordmark">GIRLS BAND CRY</span>
+        <span class="gbc-sub">
+          <span>TOGENASHI TOGEARI</span>
+          <b>/</b>
+          <span class="gbc-jp">トゲナシトゲアリ</span>
+        </span>
+        <span class="gbc-member-dots" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i>
+        </span>
+      </span>
+      <span class="gbc-masthead__meta">DSH DYNAMIC THEME<br>VOL. 013 / 空の箱</span>
+    </header>
+
+    <div class="gbc-title">
+      <span class="gbc-title__en">THE EMPTY BOX</span>
+      <span class="gbc-title__jp" data-text="空の箱">空の箱</span>
+      <span class="gbc-title__rule"></span>
+    </div>
+
+    <div class="gbc-side">トゲナシトゲアリ</div>
+
+    <p class="gbc-tagline">
+      <span>怒りも喜びも哀しさも、</span>
+      <span>全部ぶちこめ。</span>
+    </p>
+
+    <div class="gbc-ghost">叫</div>
+    <div class="gbc-quote">私は、間違ってない。</div>
+
+    <div class="gbc-boxnote">
+      <span>空っぽでも、鳴らせ。</span>
+      <i></i>
+    </div>
+
+    <div class="gbc-live">
+      <i class="gbc-live__dot"></i>
+      <b>LIVE</b>
+      <span>2026.10.25</span>
+      <span>KAWASAKI CLUB CITTA'</span>
+    </div>
+
+    <div class="gbc-serial">
+      <span>GBC-013</span>
+      <span>TOGE-0 / TOGE-1</span>
+      <span>148 BPM</span>
+    </div>
+
+    <div class="gbc-barcode" aria-hidden="true"></div>
+
+  </div>
+
+  <div class="gbc-hud" data-role="hud">
+    <div class="gbc-hud__row">
+      <span class="gbc-hud__label">GBC <b>//</b> DSH</span>
+      <button type="button" data-mode="live" class="is-active">LIVE</button>
+      <button type="button" data-mode="sky">SKY</button>
+      <button type="button" data-mode="noise">NOISE</button>
+      <span class="gbc-hud__sep"></span>
+      <button type="button" data-action="pause" aria-label="暂停动画">PAUSE</button>
+      <button type="button" data-action="hide" aria-label="隐藏界面">HIDE</button>
+    </div>
+    <div class="gbc-hud__hint">M 切换模式 · 点击 / 空格 拨弦 · H 隐藏界面</div>
+  </div>
+
+  <div class="gbc-hint" data-role="hint">按 H 显示界面</div>
+</div>

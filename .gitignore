@@ -1,0 +1,23 @@
+# Local build / test artifacts
+build/
+dist/frames/
+*.log
+*.bak
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local secrets / profile backups
+.env
+.env.*
+*.pem
+*.key
+.gbc-theme-backup-*/

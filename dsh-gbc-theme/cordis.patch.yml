@@ -1,0 +1,5 @@
+# Bundle patch: add this package as a Loader entry. The client manifest in
+# package.json (`dsh.client`) makes the browser bundle load at shell start.
+- insert:
+    - id: dsh-gbc-theme
+      name: 'dsh-gbc-theme'
